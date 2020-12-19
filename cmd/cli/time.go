@@ -1,7 +1,7 @@
-package cmd
+package cli
 
 import (
-	"github.com/ChaLanZi/gotools/tour/internal/timer"
+	"github.com/ChaLanZi/gotools/internal/timer"
 	"github.com/spf13/cobra"
 	"log"
 	"strconv"

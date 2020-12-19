@@ -1,4 +1,4 @@
-package cmd
+package cli
 
 import "github.com/spf13/cobra"
 
@@ -15,5 +15,5 @@ func Execute() error {
 func init() {
 	rootCmd.AddCommand(timeCmd)
 	rootCmd.AddCommand(wordCmd)
-
+	rootCmd.AddCommand(sqlCmd)
 }

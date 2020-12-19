@@ -1,7 +1,7 @@
-package cmd
+package cli
 
 import (
-	"github.com/ChaLanZi/gotools/tour/internal/word"
+	"github.com/ChaLanZi/gotools/internal/word"
 	"github.com/spf13/cobra"
 	"log"
 	"strings"
